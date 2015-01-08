@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.balesio.iospushbug</id>
+    <name>iOS Push Bug</name>
+    <version>0.0.1</version>
+    <publisher>balesio AG</publisher>
+    <url>http://balesio.com</url>
+    <description>An example app to demonstrate a titanium bug with push notifications on iOS</description>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>true</navbar-hidden>
+    <analytics>false</analytics>
+    <guid>0bc20699-debb-4735-b7bf-4e22a442208c</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIBackgroundModes</key>
+                <array>
+                    <string>remote-notification</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleGrey</string>
+            </dict>
+        </plist>
+    </ios>
+    <modules></modules>
+    <deployment-targets>
+        <target device="iphone">true</target>
+    </deployment-targets>
+    <sdk-version>3.4.0.GA</sdk-version>
+</ti:app>

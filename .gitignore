@@ -1,0 +1,4 @@
+certificate.pfx
+.DS_Store
+build
+node_modules
