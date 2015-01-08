@@ -9,6 +9,8 @@ An example app to demonstrate a titanium bug with push notifications on iOS
 
 2) create an APN key & certificate and convert it to a single PFX file and put it into the root directory of this app with the name "certificate.pfx"
 
+3) run `npm install`
+
 ###run
 
 1) build the app to your iPhone that's connected over USB using the `ti build` command
